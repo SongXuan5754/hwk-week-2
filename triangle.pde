@@ -1,3 +1,5 @@
+int x1 = 10;
+int x2 = 0;
 int x3 = 20;
 int y1 = 0;
 int y2 = 20;
