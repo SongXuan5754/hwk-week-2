@@ -1,0 +1,20 @@
+int i=15;
+
+void setup(){
+  size(500,500);
+  background(0);
+  frameRate(10);
+}
+
+void draw() {
+  if(i<width){ 
+    fill(0);
+    rect(i,0,3,height);
+    fill(255);
+    rect(i, mouseY,3, height);
+    i= i+15;
+    
+  } else {
+    i = 15;
+  }
+}
